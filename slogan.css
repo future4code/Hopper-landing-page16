@@ -34,8 +34,7 @@ button {
 
 
 .imgcartao {
-    width: 10rem;
-    height: 6rem;
-    box-shadow: 1vh 1vh 2vh grey;
+    
+    height: 13rem;
     align-self: center;
 }
