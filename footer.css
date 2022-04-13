@@ -6,8 +6,8 @@
 footer {
     display: flex;
     flex-direction: column;
-    background-color: orange;
-    margin-top: 20vh;
+    background-color: #ff914d;
+    width: 100vw;
 }
 
 .nomefooter {
