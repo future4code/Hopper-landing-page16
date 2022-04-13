@@ -25,6 +25,10 @@
         width: 100px;
         height: 100px;
     }
+
+    #nav-desktop{
+        display: block;
+    }
     
     #menu{
         display: flex;
@@ -47,13 +51,13 @@
 
 @media screen and (max-device-width:768px){
     #botao-mobile{
-        height: 100px;
+        display: block;
         width: 100px;
-        justify-self: end;
+        height: 100px;
     }
 
-    #botao-mobile:hover{
-        opacity: 70%;
+    #nav-desktop{
+        display: none;
     }
     
     #menu{
@@ -63,7 +67,6 @@
     }
     
     #menu a{
-        display: none;
         color: white;
         text-decoration: none;
         font-weight: bold;
