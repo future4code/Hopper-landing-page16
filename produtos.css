@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+ 
+   
+}
+
+.Produtos-Servicos{
+    background-color: orange;
+    height: 1500px; 
+    color: white;
+   
+   
+}
+
+.imagem-produto{
+    display: flex;
+    justify-content: flex-end;
+    width: 90vw;
+    height: 100vh;
+   
+    
+   
+    
+}
