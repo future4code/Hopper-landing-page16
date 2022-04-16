@@ -13,9 +13,8 @@
 }
 
 .slogan h3,
-p,
-button {
-    margin: 50px 3vw;
+.slogan p {
+    margin: 3vw;
 }
 
 .slogan button {
@@ -27,10 +26,11 @@ button {
     border: none;
     border-radius: 5px;
     box-shadow: 2px 2px 2px gray;
+    margin: 3vw;
 
 }
 
 
-.imgcartao {    
+.imgcartao {
     height: 25rem;
 }
