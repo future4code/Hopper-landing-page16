@@ -19,13 +19,26 @@
     margin: 5px;
 }
 
-@media screen and (min-device-width: 769px){
-    #botao-mobile{
-        display: none;
-        width: 100px;
-        height: 100px;
-    }
+#login{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 5px;
+}
 
+#login span{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#login img{
+    height:80px;
+    width:80px;
+}
+
+@media screen and (min-device-width: 769px){
     #nav-desktop{
         display: block;
     }
@@ -50,12 +63,6 @@
 }
 
 @media screen and (max-device-width:768px){
-    #botao-mobile{
-        display: block;
-        width: 100px;
-        height: 100px;
-    }
-
     #nav-desktop{
         display: none;
     }
