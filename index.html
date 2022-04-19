@@ -12,6 +12,7 @@
     <link rel="stylesheet" src="text/css" href="./footer.css">
     <link rel="stylesheet" src="text/css" href="./mulherCelular.css">
     <link rel="stylesheet" type="text/css" href="produtos.css">
+    <link rel="stylesheet" type="text/css" href="footer-formulario.css">
 
 </head>
 
@@ -44,11 +45,6 @@
             <img src="./img/cartoes.png" alt="Imagem ilustrativa do nosso cartao" class="imgcartao">
         </div>
 
-        <!-- IMAGEM MULHER COM CELULAR-->
-        <div>
-            <img src="./img/mulherApontando.png" alt="" class="imagem-mulher">
-        </div>
-
         <!-- QUEM SOMOS -->
 
         <div class="quemsomos">
@@ -78,14 +74,14 @@
         </div>
         
     <!--NOSSOS PRODUTOS-->
-    <h2 class="titulo-produtos">Conheça Nossos Produtos</h2>
-
         <div class="Produtos-Servicos">
-           
+            
           
      
              <div class="texto-produtos">
-                 <ul>
+                <h2 class="titulo-produtos">Conheça Nossos Produtos</h2>
+                <br>
+                <ul>
                  
                      <li><strong>Conta F4Bank</strong></li>
                      <p>Voce no controle de tudo: receba, movimente  e guarde seu dinheiro de um jeito simples e sem nenhuma complicação</p>
@@ -113,8 +109,15 @@
                 <img src="img/imagemProdutos.png">
             </div>
         </div>
+
+        <!-- IMAGEM MULHER COM CELULAR-->
+        <div>
+            <img src="./img/mulherApontando.png" alt="" class="imagem-mulher">
+        </div>
+
     </main>
 
+    
     <footer>
 
 <div class="nomefooter">
@@ -140,6 +143,25 @@
 
     </footer>
 
+    <div class="div-formulario">
+        <form class="formulario" action="/" method="post">
+              <div>
+                  <label for="nome">Nome:</label>
+                  <input type="text" id="nome" />
+              </div>
+              <br>
+              <div>
+                  <label for="email">E-mail:</label>
+                  <input type="email" id="email" />
+              </div>
+              <br>
+              <div>
+                  <label for="msg">Mensagem:</label>
+                  <textarea id="msg"></textarea>
+              </div>
+              <button>Enviar</button>
+          </form>
+      </div>
 
 </body>
 
