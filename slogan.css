@@ -42,10 +42,11 @@
 }
 
 
-.imgcartao {
-    height: 25rem;
-
-}
+.imgcartao{
+    display: block;
+    height: 350px;
+    width: 375px;
+} 
 
 
 
