@@ -7,20 +7,39 @@
 }
 
 .Produtos-Servicos{
+    display: flex;
+    flex-direction: row;
     background-color: orange;
     height: 1500px; 
     color: white;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    
    
    
 }
 
-.imagem-produto{
-    display: flex;
-    justify-content: flex-end;
-    width: 90vw;
-    height: 100vh;
-   
-    
-   
-    
+.imagem-produto img{
+
+    width: 375px;
+    height: 400px;
+ 
+}
+
+.texto-produtos{
+    width: 600px;
+    list-style: none;
+
+}
+
+.texto-produtos ul{
+    list-style: none;
+
+}
+
+.titulo-produtos{
+    background-color: orange;
+    padding: 10px;
 }
