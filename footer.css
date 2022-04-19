@@ -7,7 +7,7 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: #ff914d;
-    /* width: 100vw; */
+    width: 100vw;
 }
 
 .nomefooter {

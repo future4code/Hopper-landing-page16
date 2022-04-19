@@ -9,8 +9,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 10vh;
-    /* width: 100vw;
-    height: 90px; */
+    width: 90vw;
+    /* height: 90px; */
 }
 
 #logo {
@@ -57,7 +57,7 @@
         text-decoration: none;
         font-weight: bold;
         font-size: 25px;
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
 
     #menu a:hover {
@@ -81,7 +81,7 @@
         text-decoration: none;
         font-weight: bold;
         font-size: 25px;
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
 
     #menu a:hover {
