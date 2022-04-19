@@ -1,0 +1,53 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ff914d;
+    /* width: 100vw; */
+}
+
+.nomefooter {
+
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    border-style: solid;
+    border-width: 1px 0px;
+    border-color: grey;
+}
+
+.footerimg {
+    width: 8vh;
+    margin: 5vh;
+}
+
+.footerimg:hover {
+    opacity: 0.5;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid p {
+    margin: 4vh;
+    
+}
+
+.underline {
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+
+
+.fontsize {
+    font-size: smaller;
+
+}

@@ -1,18 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" type="text/css" href="produtos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-   
-    <main >
+    <link href="./header.css" rel="stylesheet">
+    <link rel="stylesheet" src="text/css" href="./slogan.css">
+    <link rel="stylesheet" src="text/css" href="./quemsomos.css">
+    <link rel="stylesheet" src="text/css" href="./footer.css">
+    <link rel="stylesheet" src="text/css" href="./mulherCelular.css">
+    <link rel="stylesheet" type="text/css" href="produtos.css">
 
-      
-         <h2 class="titulo-produtos">Conheça Nossos Produtos</h2>
+</head>
+
+<body>
+    <header id="header">
+        <img id="logo" src="./img/f4bank.png">
+        <nav id="nav-desktop">
+            <ul id="menu">
+                <li><a href="/">Quem Somos</a></li>
+                <li><a href="/">Produtos</a></li>
+                <li><a href="/">Contato</a></li>
+            </ul>
+        </nav>
+        <div id="login">
+            <span>Login</span>
+            <a href="/"><img src="./img/login.png"></a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- SLOGAN -->
+        <div class="slogan">
+            <div>
+                <h3>Para você sentir-se mais seguro e confortável, o F4Bank chega para oferecer tradição e inovação no
+                    seu bolso!</h3>
+                <p>Conta Corrente Digital e Cartão sem Taxa!</p>
+                <button>ABRA SUA CONTA</button>
+            </div>
+            <img src="./img/cartoes.png" alt="Imagem ilustrativa do nosso cartao" class="imgcartao">
+        </div>
+
+        <!-- IMAGEM MULHER COM CELULAR-->
+        <div>
+            <img src="./img/mulherApontando.png" alt="" class="imagem-mulher">
+        </div>
+
+        <!-- QUEM SOMOS -->
+
+        <div class="quemsomos">
+
+            <h2>QUEM SOMOS NÓS?</h2>
+
+            <p class="top">Somos o primeiro banco digital público e viemos trazer o melhor de dois mundos! </p>
+            <p> Nossa missão é oferecer os melhores planos de financiamento e ajuda econômica, para deixar a sua
+                experiência mais intuitiva. </p>
+            <p> Ao mesmo tempo brindar todos aqueles serviços que você ama nas plataformas digitais:</p>
+            <ul>
+                <li>
+                    Fácil acesso e controle sobre sua conta
+                </li>
+                <li>
+                    PIX e Transferências de forma rapida e eficaz
+                </li>
+                <li>
+                    Atendimento 100% online sem filas de espera!
+                </li>
+            </ul>
+            </p>
+            <p>
+                Além de contar com produtos especias como cartão sem taxa e a primeira conta corrente digital do Brasil!
+            </p>
+
+        </div>
+        
+    <!--NOSSOS PRODUTOS-->
+    <h2 class="titulo-produtos">Conheça Nossos Produtos</h2>
 
         <div class="Produtos-Servicos">
            
@@ -47,10 +113,34 @@
                 <img src="img/imagemProdutos.png">
             </div>
         </div>
+    </main>
 
-        
-    
-     
-        </main>
-    </body>
+    <footer>
+
+<div class="nomefooter">
+        <img src="./img/footer.png" alt="Imagem nome do banco">
+    </div>
+
+    <div class="grid">
+       <div>
+            <p class="underline">Encontre-nos!</p>
+
+            <a target="_blank" href="https://pt-br.facebook.com/"><img src="./img/facebook.png" alt="Icone facebook" class="footerimg"></a>
+            <a target="_blank" href="https://www.instagram.com/"><img src="./img/instagram.png" alt="Icone instagram" class="footerimg"></a>
+            <a target="_blank" href="https://twitter.com/login?lang=pt"><img src="./img/twitter.png" alt="Icone twitter" class="footerimg"></a>
+            <img src="./img/whatsapp.png" alt="Icone whatsapp" class="footerimg">
+        </div>
+            <div>
+                <p class="underline">Fale conosco</p>
+                <p class="fontsize">0800 222 333</p>
+                <p class="fontsize">meajuda@f4bank.com.br</p>
+                <p class="fontsize">Ou pelo nosso chat disponivel 24hs</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
 </html>
