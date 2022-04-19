@@ -1,36 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.quemsomos{
+.quemsomos {
     text-align: left;
     font-size: larger;
-    background-color: white;
+
 }
 
-.quemsomos h2{
+.quemsomos h2 {
     color: orange;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 50px;
+    padding-top: 5vh;
     padding-left: 3vw;
 }
 
-.quemsomos p{
+.quemsomos p {
     font-family: Arial, Helvetica, sans-serif;
-    /* margin: 50px 3vw; */
-    font-weight:500;
-    
+    font-weight: 500;
+    margin: 3vw;
+
 }
 
-.quemsomos li{
+.quemsomos li {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: justify ;
+    text-align: justify;
     margin: 2vh 15vh;
-    font-weight:500;
+    font-weight: 500;
 }
-
-
-
-
-

@@ -13,14 +13,13 @@
     flex-wrap: wrap;
 }
 
-.slogan > div{
+.slogan>div {
     width: 400px;
 }
 
 .slogan h3,
-p,
-button {
-    margin: 50px 3vw;
+.slogan p {
+    margin: 3vw;
 }
 
 .slogan button {
@@ -32,20 +31,25 @@ button {
     border: none;
     border-radius: 5px;
     box-shadow: 2px 2px 2px gray;
+    margin: 3vw;
 
 }
 
-
-
-.imgcartao {    
-    height: 25rem;
+.imgcartao {
+    display: block;
+    height: 350px;
+    width: 375px;
 }
 
-@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .imgcartao{
-        display: block;
-        height: 350px;
-        width: 375px;
-    }
-    }
+
+.imgcartao{
+    display: block;
+    height: 350px;
+    width: 375px;
+} 
+
+
+
+
+
 
