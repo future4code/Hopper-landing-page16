@@ -35,8 +35,17 @@ button {
 
 }
 
-.imgcartao{
-    display: block;
-    height: 350px;
-    width: 375px;
+
+
+.imgcartao {    
+    height: 25rem;
 }
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .imgcartao{
+        display: block;
+        height: 350px;
+        width: 375px;
+    }
+    }
+
