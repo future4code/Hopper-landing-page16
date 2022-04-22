@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.div-formulario{
+    width: 100vw;
+    height: 600px;
+    background-color: #ff914d;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100;
+    margin: 0 10px;
+    background-color: rgb(148, 225, 255);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    grid-column: 1/-1;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label, input{
+    display: block;
+}
+
+#email, #nome{
+    width: 150px;
+    height: 30px;
+}
+
+#msg{
+    width: 100%;
+    height: 200px;
+}
+
+.formulario button{
+    width: 100px;
+    height: 40px;
+    align-self: flex-end;
+    background-color: #ff914d;
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

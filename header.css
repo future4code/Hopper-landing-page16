@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    background-color: #ff914d;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vh;
+    width: 90vw;
+    /* height: 90px; */
+}
+
+#logo {
+    width: 15vh;
+
+    /* height: 80px;
+    width: 80px;
+    border: 1px solid white;
+    margin: 5px; */
+}
+
+#login{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 5px;
+}
+
+#login span{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#login img{
+    height:80px;
+    width:80px;
+}
+
+@media screen and (min-device-width: 769px){
+    #nav-desktop{
+        display: block;
+    }
+
+    #menu {
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+    }
+
+    #menu a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        /* margin-right: 20px; */
+    }
+
+    #menu a:hover {
+        opacity: 70%;
+    }
+}
+
+@media screen and (max-device-width:768px){
+    #nav-desktop{
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+    }
+
+    #menu a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        /* margin-right: 20px; */
+    }
+
+    #menu a:hover {
+        opacity: 70%;
+    }
+}
